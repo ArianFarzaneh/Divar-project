@@ -7,7 +7,7 @@ const Main = () => {
         child:[
             El({
                 element:'div',
-                className:'w-9/12 overflow-x-hidden overflow-x-auto  pt-5',
+                className:'md:w-9/12 overflow-x-hidden overflow-x-auto pt-5 w-12/12',
                 dir:"rtl",
                 child:[
                     El({
@@ -17,11 +17,11 @@ const Main = () => {
                         child:[
                             El({
                                 element:"div",
-                                className:"w-12/12 flex justify-evenly mb-4",
+                                className:"w-12/12 md:flex justify-evenly mb-4 block",
                                 child:[
                                     El({
                                         element:"div",
-                                        className:"w-[32%] p-3 flex border-2 border-gray-200",
+                                        className:"md:w-[32%] p-3 flex border-2 border-gray-200 w-12/12 hover:bg-gray-200 rounded-md",
                                         child:[
                                             El({
                                                 element:"img",
@@ -41,12 +41,12 @@ const Main = () => {
                                                     }),
                                                     El({
                                                         element:'div',
-                                                        className:"text-gray-400",
+                                                        className:"text-gray-400 hover:text-black hover:font-bold",
                                                         child:"۱۰۰۰۰ تومان"
                                                     }),
                                                     El({
                                                         element:'div',
-                                                        className:"text-gray-400",
+                                                        className:"text-gray-400 hover:text-black hover:font-bold",
                                                         child:"۶ ساعت پیش در تهران"
                                                     })
                                                 ]
@@ -55,7 +55,7 @@ const Main = () => {
                                     }),
                                     El({
                                         element:"div",
-                                        className:"w-[32%] p-3 flex border-2 border-gray-200",
+                                        className:"md:w-[32%] p-3 flex border-2 border-gray-200 w-12/12 hover:bg-gray-200 rounded-md",
                                         child:[
                                             El({
                                                 element:"img",
@@ -75,12 +75,12 @@ const Main = () => {
                                                     }),
                                                     El({
                                                         element:'div',
-                                                        className:"text-gray-400",
+                                                        className:"text-gray-400 hover:text-black hover:font-bold",
                                                         child:"۱۰۰۰۰ تومان"
                                                     }),
                                                     El({
                                                         element:'div',
-                                                        className:"text-gray-400",
+                                                        className:"text-gray-400 hover:text-black hover:font-bold",
                                                         child:"۶ ساعت پیش در تهران"
                                                     })
                                                 ]
@@ -89,7 +89,7 @@ const Main = () => {
                                     }),
                                     El({
                                         element:"div",
-                                        className:"w-[32%] p-3 flex border-2 border-gray-200",
+                                        className:"md:w-[32%] p-3 flex border-2 border-gray-200 w-12/12 hover:bg-gray-200 rounded-md",
                                         child:[
                                             El({
                                                 element:"img",
@@ -109,12 +109,12 @@ const Main = () => {
                                                     }),
                                                     El({
                                                         element:'div',
-                                                        className:"text-gray-400",
+                                                        className:"text-gray-400 hover:text-black hover:font-bold",
                                                         child:"۱۰۰۰۰ تومان"
                                                     }),
                                                     El({
                                                         element:'div',
-                                                        className:"text-gray-400",
+                                                        className:"text-gray-400 hover:text-black hover:font-bold",
                                                         child:"۶ ساعت پیش در تهران"
                                                     })
                                                 ]
@@ -125,11 +125,11 @@ const Main = () => {
                             }),
                             El({
                                 element:"div",
-                                className:"w-12/12 flex justify-evenly mb-4",
+                                className:"w-12/12 md:flex justify-evenly mb-4 block",
                                 child:[
                                     El({
                                         element:"div",
-                                        className:"w-[32%] p-3 flex border-2 border-gray-200",
+                                        className:"md:w-[32%] p-3 flex border-2 border-gray-200 w-12/12 hover:bg-gray-200 rounded-md",
                                         child:[
                                             El({
                                                 element:"img",
@@ -149,12 +149,12 @@ const Main = () => {
                                                     }),
                                                     El({
                                                         element:'div',
-                                                        className:"text-gray-400",
+                                                        className:"text-gray-400 hover:text-black hover:font-bold",
                                                         child:"۱۰۰۰۰ تومان"
                                                     }),
                                                     El({
                                                         element:'div',
-                                                        className:"text-gray-400",
+                                                        className:"text-gray-400 hover:text-black hover:font-bold",
                                                         child:"۶ ساعت پیش در تهران"
                                                     })
                                                 ]
@@ -163,7 +163,7 @@ const Main = () => {
                                     }),
                                     El({
                                         element:"div",
-                                        className:"w-[32%] p-3 flex border-2 border-gray-200",
+                                        className:"md:w-[32%] p-3 flex border-2 border-gray-200 w-12/12 hover:bg-gray-200 rounded-md",
                                         child:[
                                             El({
                                                 element:"img",
@@ -183,12 +183,12 @@ const Main = () => {
                                                     }),
                                                     El({
                                                         element:'div',
-                                                        className:"text-gray-400",
+                                                        className:"text-gray-400 hover:text-black hover:font-bold",
                                                         child:"۱۰۰۰۰ تومان"
                                                     }),
                                                     El({
                                                         element:'div',
-                                                        className:"text-gray-400",
+                                                        className:"text-gray-400 hover:text-black hover:font-bold",
                                                         child:"۶ ساعت پیش در تهران"
                                                     })
                                                 ]
@@ -197,7 +197,7 @@ const Main = () => {
                                     }),
                                     El({
                                         element:"div",
-                                        className:"w-[32%] p-3 flex border-2 border-gray-200",
+                                        className:"md:w-[32%] p-3 flex border-2 border-gray-200 w-12/12 hover:bg-gray-200 rounded-md",
                                         child:[
                                             El({
                                                 element:"img",
@@ -217,12 +217,12 @@ const Main = () => {
                                                     }),
                                                     El({
                                                         element:'div',
-                                                        className:"text-gray-400",
+                                                        className:"text-gray-400 hover:text-black hover:font-bold",
                                                         child:"۱۰۰۰۰ تومان"
                                                     }),
                                                     El({
                                                         element:'div',
-                                                        className:"text-gray-400",
+                                                        className:"text-gray-400 hover:text-black hover:font-bold",
                                                         child:"۶ ساعت پیش در تهران"
                                                     })
                                                 ]
@@ -233,11 +233,11 @@ const Main = () => {
                             }),
                             El({
                                 element:"div",
-                                className:"w-12/12 flex justify-evenly mb-4",
+                                className:"w-12/12 md:flex justify-evenly mb-4 block",
                                 child:[
                                     El({
                                         element:"div",
-                                        className:"w-[32%] p-3 flex border-2 border-gray-200",
+                                        className:"md:w-[32%] p-3 flex border-2 border-gray-200 w-12/12 hover:bg-gray-200 rounded-md",
                                         child:[
                                             El({
                                                 element:"img",
@@ -257,12 +257,12 @@ const Main = () => {
                                                     }),
                                                     El({
                                                         element:'div',
-                                                        className:"text-gray-400",
+                                                        className:"text-gray-400 hover:text-black hover:font-bold",
                                                         child:"۱۰۰۰۰ تومان"
                                                     }),
                                                     El({
                                                         element:'div',
-                                                        className:"text-gray-400",
+                                                        className:"text-gray-400 hover:text-black hover:font-bold",
                                                         child:"۶ ساعت پیش در تهران"
                                                     })
                                                 ]
@@ -271,7 +271,7 @@ const Main = () => {
                                     }),
                                     El({
                                         element:"div",
-                                        className:"w-[32%] p-3 flex border-2 border-gray-200",
+                                        className:"md:w-[32%] p-3 flex border-2 border-gray-200 w-12/12 hover:bg-gray-200 rounded-md",
                                         child:[
                                             El({
                                                 element:"img",
@@ -291,12 +291,12 @@ const Main = () => {
                                                     }),
                                                     El({
                                                         element:'div',
-                                                        className:"text-gray-400",
+                                                        className:"text-gray-400 hover:text-black hover:font-bold",
                                                         child:"۱۰۰۰۰ تومان"
                                                     }),
                                                     El({
                                                         element:'div',
-                                                        className:"text-gray-400",
+                                                        className:"text-gray-400 hover:text-black hover:font-bold",
                                                         child:"۶ ساعت پیش در تهران"
                                                     })
                                                 ]
@@ -305,7 +305,7 @@ const Main = () => {
                                     }),
                                     El({
                                         element:"div",
-                                        className:"w-[32%] p-3 flex border-2 border-gray-200",
+                                        className:"md:w-[32%] p-3 flex border-2 border-gray-200 w-12/12 hover:bg-gray-200 rounded-md",
                                         child:[
                                             El({
                                                 element:"img",
@@ -325,12 +325,12 @@ const Main = () => {
                                                     }),
                                                     El({
                                                         element:'div',
-                                                        className:"text-gray-400",
+                                                        className:"text-gray-400 hover:text-black hover:font-bold",
                                                         child:"۱۰۰۰۰ تومان"
                                                     }),
                                                     El({
                                                         element:'div',
-                                                        className:"text-gray-400",
+                                                        className:"text-gray-400 hover:text-black hover:font-bold",
                                                         child:"۶ ساعت پیش در تهران"
                                                     })
                                                 ]
@@ -341,11 +341,11 @@ const Main = () => {
                             }),
                             El({
                                 element:"div",
-                                className:"w-12/12 flex justify-evenly mb-4",
+                                className:"w-12/12 md:flex justify-evenly mb-4 block",
                                 child:[
                                     El({
                                         element:"div",
-                                        className:"w-[32%] p-3 flex border-2 border-gray-200",
+                                        className:"md:w-[32%] p-3 flex border-2 border-gray-200 w-12/12 hover:bg-gray-200 rounded-md",
                                         child:[
                                             El({
                                                 element:"img",
@@ -365,12 +365,12 @@ const Main = () => {
                                                     }),
                                                     El({
                                                         element:'div',
-                                                        className:"text-gray-400",
+                                                        className:"text-gray-400 hover:text-black hover:font-bold",
                                                         child:"۱۰۰۰۰ تومان"
                                                     }),
                                                     El({
                                                         element:'div',
-                                                        className:"text-gray-400",
+                                                        className:"text-gray-400 hover:text-black hover:font-bold",
                                                         child:"۶ ساعت پیش در تهران"
                                                     })
                                                 ]
@@ -379,7 +379,7 @@ const Main = () => {
                                     }),
                                     El({
                                         element:"div",
-                                        className:"w-[32%] p-3 flex border-2 border-gray-200",
+                                        className:"md:w-[32%] p-3 flex border-2 border-gray-200 w-12/12 hover:bg-gray-200 rounded-md",
                                         child:[
                                             El({
                                                 element:"img",
@@ -399,12 +399,12 @@ const Main = () => {
                                                     }),
                                                     El({
                                                         element:'div',
-                                                        className:"text-gray-400",
+                                                        className:"text-gray-400 hover:text-black hover:font-bold",
                                                         child:"۱۰۰۰۰ تومان"
                                                     }),
                                                     El({
                                                         element:'div',
-                                                        className:"text-gray-400",
+                                                        className:"text-gray-400 hover:text-black hover:font-bold",
                                                         child:"۶ ساعت پیش در تهران"
                                                     })
                                                 ]
@@ -413,7 +413,7 @@ const Main = () => {
                                     }),
                                     El({
                                         element:"div",
-                                        className:"w-[32%] p-3 flex border-2 border-gray-200",
+                                        className:"md:w-[32%] p-3 flex border-2 border-gray-200 w-12/12 hover:bg-gray-200 rounded-md",
                                         child:[
                                             El({
                                                 element:"img",
@@ -433,12 +433,12 @@ const Main = () => {
                                                     }),
                                                     El({
                                                         element:'div',
-                                                        className:"text-gray-400",
+                                                        className:"text-gray-400 hover:text-black hover:font-bold",
                                                         child:"۱۰۰۰۰ تومان"
                                                     }),
                                                     El({
                                                         element:'div',
-                                                        className:"text-gray-400",
+                                                        className:"text-gray-400 hover:text-black hover:font-bold",
                                                         child:"۶ ساعت پیش در تهران"
                                                     })
                                                 ]
@@ -449,11 +449,11 @@ const Main = () => {
                             }),
                             El({
                                 element:"div",
-                                className:"w-12/12 flex justify-evenly mb-4",
+                                className:"w-12/12 md:flex justify-evenly mb-4 block",
                                 child:[
                                     El({
                                         element:"div",
-                                        className:"w-[32%] p-3 flex border-2 border-gray-200",
+                                        className:"md:w-[32%] p-3 flex border-2 border-gray-200 w-12/12 hover:bg-gray-200 rounded-md",
                                         child:[
                                             El({
                                                 element:"img",
@@ -473,12 +473,12 @@ const Main = () => {
                                                     }),
                                                     El({
                                                         element:'div',
-                                                        className:"text-gray-400",
+                                                        className:"text-gray-400 hover:text-black hover:font-bold",
                                                         child:"۱۰۰۰۰ تومان"
                                                     }),
                                                     El({
                                                         element:'div',
-                                                        className:"text-gray-400",
+                                                        className:"text-gray-400 hover:text-black hover:font-bold",
                                                         child:"۶ ساعت پیش در تهران"
                                                     })
                                                 ]
@@ -487,7 +487,7 @@ const Main = () => {
                                     }),
                                     El({
                                         element:"div",
-                                        className:"w-[32%] p-3 flex border-2 border-gray-200",
+                                        className:"md:w-[32%] p-3 flex border-2 border-gray-200 w-12/12 hover:bg-gray-200 rounded-md",
                                         child:[
                                             El({
                                                 element:"img",
@@ -507,12 +507,12 @@ const Main = () => {
                                                     }),
                                                     El({
                                                         element:'div',
-                                                        className:"text-gray-400",
+                                                        className:"text-gray-400 hover:text-black hover:font-bold",
                                                         child:"۱۰۰۰۰ تومان"
                                                     }),
                                                     El({
                                                         element:'div',
-                                                        className:"text-gray-400",
+                                                        className:"text-gray-400 hover:text-black hover:font-bold",
                                                         child:"۶ ساعت پیش در تهران"
                                                     })
                                                 ]
@@ -521,7 +521,7 @@ const Main = () => {
                                     }),
                                     El({
                                         element:"div",
-                                        className:"w-[32%] p-3 flex border-2 border-gray-200",
+                                        className:"md:w-[32%] p-3 flex border-2 border-gray-200 w-12/12 hover:bg-gray-200 rounded-md",
                                         child:[
                                             El({
                                                 element:"img",
@@ -541,12 +541,12 @@ const Main = () => {
                                                     }),
                                                     El({
                                                         element:'div',
-                                                        className:"text-gray-400",
+                                                        className:"text-gray-400 hover:text-black hover:font-bold",
                                                         child:"۱۰۰۰۰ تومان"
                                                     }),
                                                     El({
                                                         element:'div',
-                                                        className:"text-gray-400",
+                                                        className:"text-gray-400 hover:text-black hover:font-bold",
                                                         child:"۶ ساعت پیش در تهران"
                                                     })
                                                 ]
@@ -557,11 +557,11 @@ const Main = () => {
                             }),
                             El({
                                 element:"div",
-                                className:"w-12/12 flex justify-evenly mb-4",
+                                className:"w-12/12 md:flex justify-evenly mb-4 block",
                                 child:[
                                     El({
                                         element:"div",
-                                        className:"w-[32%] p-3 flex border-2 border-gray-200",
+                                        className:"md:w-[32%] p-3 flex border-2 border-gray-200 w-12/12 hover:bg-gray-200 rounded-md",
                                         child:[
                                             El({
                                                 element:"img",
@@ -581,12 +581,12 @@ const Main = () => {
                                                     }),
                                                     El({
                                                         element:'div',
-                                                        className:"text-gray-400",
+                                                        className:"text-gray-400 hover:text-black hover:font-bold",
                                                         child:"۱۰۰۰۰ تومان"
                                                     }),
                                                     El({
                                                         element:'div',
-                                                        className:"text-gray-400",
+                                                        className:"text-gray-400 hover:text-black hover:font-bold",
                                                         child:"۶ ساعت پیش در تهران"
                                                     })
                                                 ]
@@ -595,7 +595,7 @@ const Main = () => {
                                     }),
                                     El({
                                         element:"div",
-                                        className:"w-[32%] p-3 flex border-2 border-gray-200",
+                                        className:"md:w-[32%] p-3 flex border-2 border-gray-200 w-12/12 hover:bg-gray-200 rounded-md",
                                         child:[
                                             El({
                                                 element:"img",
@@ -615,12 +615,12 @@ const Main = () => {
                                                     }),
                                                     El({
                                                         element:'div',
-                                                        className:"text-gray-400",
+                                                        className:"text-gray-400 hover:text-black hover:font-bold",
                                                         child:"۱۰۰۰۰ تومان"
                                                     }),
                                                     El({
                                                         element:'div',
-                                                        className:"text-gray-400",
+                                                        className:"text-gray-400 hover:text-black hover:font-bold",
                                                         child:"۶ ساعت پیش در تهران"
                                                     })
                                                 ]
@@ -629,7 +629,7 @@ const Main = () => {
                                     }),
                                     El({
                                         element:"div",
-                                        className:"w-[32%] p-3 flex border-2 border-gray-200",
+                                        className:"md:w-[32%] p-3 flex border-2 border-gray-200 w-12/12 hover:bg-gray-200 rounded-md",
                                         child:[
                                             El({
                                                 element:"img",
@@ -649,12 +649,12 @@ const Main = () => {
                                                     }),
                                                     El({
                                                         element:'div',
-                                                        className:"text-gray-400",
+                                                        className:"text-gray-400 hover:text-black hover:font-bold",
                                                         child:"۱۰۰۰۰ تومان"
                                                     }),
                                                     El({
                                                         element:'div',
-                                                        className:"text-gray-400",
+                                                        className:"text-gray-400 hover:text-black hover:font-bold",
                                                         child:"۶ ساعت پیش در تهران"
                                                     })
                                                 ]
@@ -671,7 +671,7 @@ const Main = () => {
             }),
             El({
                 element:'div',
-                className:'w-3/12 h-[90vh] overflow-x-hidden overflow-x-auto text-gray-600  pt-4 pr-6 pl-6',
+                className:'md:w-3/12 h-[90vh] overflow-x-hidden overflow-x-auto text-gray-600  pt-4 pr-6 pl-6 md:block hidden',
                 dir:"rtl",
                 child:[
                     El({
@@ -685,7 +685,7 @@ const Main = () => {
                             }),
                             El({
                                 element:'div',
-                                className:"text-md flex mb-4",
+                                className:"text-md flex  mb-4 hover:bg-gray-200",
                                 child:[
                                     El({
                                         element:'img',
@@ -697,7 +697,7 @@ const Main = () => {
                             }),
                             El({
                                 element:'div',
-                                className:"text-md flex  mb-4",
+                                className:"text-md flex  mb-4 hover:bg-gray-200",
                                 child:[
                                     El({
                                         element:'img',
@@ -709,7 +709,7 @@ const Main = () => {
                             }),
                             El({
                                 element:'div',
-                                className:"text-md flex  mb-4",
+                                className:"text-md flex  mb-4 hover:bg-gray-200",
                                 child:[
                                     El({
                                         element:'img',
@@ -722,7 +722,7 @@ const Main = () => {
 
                             El({
                                 element:'div',
-                                className:"text-md flex  mb-4",
+                                className:"text-md flex  mb-4 hover:bg-gray-200",
                                 child:[
                                     El({
                                         element:'img',
@@ -735,7 +735,7 @@ const Main = () => {
 
                             El({
                                 element:'div',
-                                className:"text-md flex  mb-4",
+                                className:"text-md flex  mb-4 hover:bg-gray-200",
                                 child:[
                                     El({
                                         element:'img',
@@ -748,7 +748,7 @@ const Main = () => {
 
                             El({
                                 element:'div',
-                                className:"text-md flex  mb-4",
+                                className:"text-md flex  mb-4 hover:bg-gray-200",
                                 child:[
                                     El({
                                         element:'img',
@@ -761,7 +761,7 @@ const Main = () => {
 
                             El({
                                 element:'div',
-                                className:"text-md flex  mb-4",
+                                className:"text-md flex  mb-4 hover:bg-gray-200",
                                 child:[
                                     El({
                                         element:'img',
@@ -774,7 +774,7 @@ const Main = () => {
 
                             El({
                                 element:'div',
-                                className:"text-md flex  mb-4",
+                                className:"text-md flex  mb-4 hover:bg-gray-200",
                                 child:[
                                     El({
                                         element:'img',
@@ -787,7 +787,7 @@ const Main = () => {
 
                             El({
                                 element:'div',
-                                className:"text-md flex  mb-4",
+                                className:"text-md flex  mb-4 hover:bg-gray-200",
                                 child:[
                                     El({
                                         element:'img',
@@ -800,7 +800,7 @@ const Main = () => {
 
                             El({
                                 element:'div',
-                                className:"text-md flex  mb-4",
+                                className:"text-md flex  mb-4 hover:bg-gray-200",
                                 child:[
                                     El({
                                         element:'img',
@@ -815,7 +815,7 @@ const Main = () => {
                     }),
                     El({
                         element:'div',
-                        className:"text-md flex  pb-4  mt-4 border-b-[1px] border-black",
+                        className:"text-md flex  pb-4  mt-4 border-b-[1px] border-black hover:bg-gray-200",
                         child:[
                             El({
                                 element:'img',
@@ -827,7 +827,7 @@ const Main = () => {
                     }),
                     El({
                         element:'div',
-                        className:"text-md flex  pb-4  mt-4 border-b-[1px] border-black",
+                        className:"text-md flex  pb-4  mt-4 border-b-[1px] border-black hover:bg-gray-200",
                         child:[
                             El({
                                 element:'img',
@@ -839,7 +839,7 @@ const Main = () => {
                     }),
                     El({
                         element:'div',
-                        className:"text-md flex  pb-4  mt-4 border-b-[1px] border-black",
+                        className:"text-md flex  pb-4  mt-4 border-b-[1px] border-black hover:bg-gray-200",
                         child:[
                             El({
                                 element:'img',
