@@ -21,7 +21,7 @@ const Navbar = () => {
 
                     El({
                         element:"button",
-                        className:"w-3/12 bg-white pt-1 text-gray-500 h-10 rounded-md mr-2 text-[80%] hover:bg-[#F5F5F5] md:block hidden",
+                        className:"w-2/12 bg-white pt-[3px] text-gray-500 h-10 rounded-md mr-2 text-[80%] hover:bg-[#F5F5F5] md:block hidden",
                         child:"پشتیبانی"
                         
                     }
@@ -29,7 +29,7 @@ const Navbar = () => {
 
                     El({
                         element:"button",
-                        className:"md:w-2/12 md:bg-white md:flex md:text-gray-500 md:h-10 md:rounded-md md:mr-2 md:pl-4 md:pt-2 md:hover:bg-[#F5F5F5] md:block hidden",
+                        className:"md:w-2/12 md:bg-white md:flex md:text-gray-500 md:h-10 md:rounded-md md:mr-2 md:pl-4 md:pt-[9px] md:hover:bg-[#F5F5F5] md:block hidden",
                         child:[
                             "چت",
                             El({
@@ -98,12 +98,12 @@ const Navbar = () => {
 
                     El({
                         element:"button",
-                        className:"md:w-[11%] bg-white md:flex text-gray-500 h-10 rounded-md pl-4 pt-2 text-[80%] hover:bg-[#F5F5F5] hidden w-0",
+                        className:"md:w-[11%] bg-white md:flex text-gray-500 h-10 rounded-md pl-2 pt-2 text-[80%] hover:bg-[#F5F5F5] hidden w-0",
                         child:[
                             "تهران",
                             El({
                                 element:"img",
-                                className:"w-4/12 ml-2  ",
+                                className:"w-4/12 ml-2 mb-[10px]",
                                 src:"../../../images/location-outline.svg",
                                 child:""
                             })
